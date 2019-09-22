@@ -19,17 +19,17 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Statistics &amp; Data Science Educator: Statistics and Data Science Educator</title>
+  <title>Statistics &amp; Data Science Educator: Lesson plans</title>
   
-  <meta property="description" itemprop="description" content="Peer-reviewed lesson plans for teaching statistics and data science"/>
+  <meta property="description" itemprop="description" content="Peer reviewed lesson plans for teaching statistics and data science"/>
   
   <link rel="icon" type="image/png" href="images/logo.png"/>
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Statistics &amp; Data Science Educator: Statistics and Data Science Educator"/>
+  <meta property="og:title" content="Statistics &amp; Data Science Educator: Lesson plans"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Peer-reviewed lesson plans for teaching statistics and data science"/>
+  <meta property="og:description" content="Peer reviewed lesson plans for teaching statistics and data science"/>
   <meta property="og:image" content="https://stat.auckland.ac.nz/~sdse/./images/header.png"/>
   <meta property="og:image:width" content="1575"/>
   <meta property="og:image:height" content="525"/>
@@ -38,8 +38,8 @@
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary_large_image"/>
-  <meta property="twitter:title" content="Statistics &amp; Data Science Educator: Statistics and Data Science Educator"/>
-  <meta property="twitter:description" content="Peer-reviewed lesson plans for teaching statistics and data science"/>
+  <meta property="twitter:title" content="Statistics &amp; Data Science Educator: Lesson plans"/>
+  <meta property="twitter:description" content="Peer reviewed lesson plans for teaching statistics and data science"/>
   <meta property="twitter:image" content="https://stat.auckland.ac.nz/~sdse/./images/header.png"/>
   <meta property="twitter:image:width" content="1575"/>
   <meta property="twitter:image:height" content="525"/>
@@ -48,7 +48,7 @@
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","base_url","preview","site"]}},"value":[{"type":"character","attributes":{},"value":["Statistics and Data Science Educator"]},{"type":"character","attributes":{},"value":["Peer-reviewed lesson plans for teaching statistics and data science\n"]},{"type":"character","attributes":{},"value":["https://stat.auckland.ac.nz/~sdse"]},{"type":"character","attributes":{},"value":["images/header.png"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","base_url","preview","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Lesson plans"]},{"type":"character","attributes":{},"value":["Peer reviewed lesson plans for teaching statistics and data science\n"]},{"type":"character","attributes":{},"value":["https://stat.auckland.ac.nz/~sdse"]},{"type":"character","attributes":{},"value":["images/header.png"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["posts"]}},"value":[{"type":"character","attributes":{},"value":["SDSE19-001","SDSE19-004","SDSE19-003","SDSE19-002"]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1374,12 +1374,12 @@
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Statistics and Data Science Educator","description":"Peer-reviewed lesson plans for teaching statistics and data science","authors":[]}
+{"title":"Lesson plans","description":"Peer reviewed lesson plans for teaching statistics and data science","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1428,127 +1428,428 @@ function check_header(){
 }
 */
 </script>
+<!--radix_placeholder_article_listing-->
+
+<style type="text/css">
+
+/* Styles for listing layout (hide title) */
+.layout-listing d-title, .layout-listing .d-title {
+  display: none;
+}
+
+/* Styles for posts lists (not auto-injected) */
+
+
+.posts-with-sidebar {
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.posts-list .description h2,
+.posts-list .description p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.posts-list .description h2 {
+  font-weight: 700;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.posts-list h2.post-tag {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 12px;
+}
+.posts-list {
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+
+.posts-list .post-preview {
+  text-decoration: none;
+  overflow: hidden;
+  display: block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 24px 0;
+}
+
+.post-preview-last {
+  border-bottom: none !important;
+}
+
+.posts-list .posts-list-caption {
+  grid-column: screen;
+  font-weight: 400;
+}
+
+.posts-list .post-preview h2 {
+  margin: 0 0 6px 0;
+  line-height: 1.2em;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.posts-list .post-preview p {
+  margin: 0 0 12px 0;
+  line-height: 1.4em;
+  font-size: 16px;
+}
+
+.posts-list .post-preview .thumbnail {
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  position: relative;
+  max-width: 500px;
+}
+.posts-list .post-preview img {
+  width: 100%;
+  display: block;
+}
+
+.posts-list .metadata {
+  font-size: 12px;
+  line-height: 1.4em;
+  margin-bottom: 18px;
+}
+
+.posts-list .metadata > * {
+  display: inline-block;
+}
+
+.posts-list .metadata .publishedDate {
+  margin-right: 1em;
+}
+
+.posts-list .metadata .tags {
+  margin-top: 1em;
+}
+
+.posts-list .tags .tag {
+  color: rgba(0,0,0,0.67);
+  padding: 0.3em 0.5em;
+  margin: 0;
+  font-size: 80%;
+  border: 1px solid rgba(0,0,0,0.4);
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.posts-list img {
+  opacity: 1;
+}
+
+.posts-list img[data-src] {
+  opacity: 0;
+}
+
+.posts-more {
+  clear: both;
+}
+
+
+.posts-sidebar {
+  font-size: 16px;
+}
+
+.posts-sidebar h3 {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.sidebar-section {
+  margin-bottom: 30px;
+}
+
+.categories ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.categories li {
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 0;
+}
+
+.categories li>a {
+  border-bottom: none;
+}
+
+.categories li>a:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.categories .active {
+  font-weight: 600;
+}
+
+.categories .category-count {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+
+@media(min-width: 768px) {
+  .posts-list .post-preview h2 {
+    font-size: 26px;
+  }
+  .posts-list .post-preview .thumbnail {
+    float: right;
+    width: 35%;
+    margin-bottom: 0;
+  }
+  .posts-list .post-preview .description {
+    float: left;
+    width: 45%;
+  }
+  .posts-list .post-preview .metadata {
+    float: left;
+    width: 15%;
+    margin-top: 8px;
+  }
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.5em;
+    font-size: 16px;
+  }
+  .posts-with-sidebar .posts-list {
+    float: left;
+    width: 72%;
+  }
+  .posts-with-sidebar .posts-sidebar {
+    float: right;
+    width: 20%;
+    margin-top: 60px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.downlevel .posts-list .post-preview {
+  color: inherit;
+}
+
+</style>
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).load(function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace("#", "");
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if (category == page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
+<div class="posts-list">
+<h1 class="posts-list-caption">Lesson plans</h1>
+<a href="posts/SDSE19-001/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["informal hypothesis testing","ages 15 - 18 years","ages 11 - 14 years"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 25, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/SDSE19-001/wonky.png"/>
+</div>
+<div class="description">
+<h2>Is the wonky dice fair?</h2>
+<p>In this activity, students explore the actual and expected outcomes of a six-sided “wonky” dice. Students use what they have learned about sampling variation to decide if there is any reason to think their wonky dice might not be fair.</p>
+</div>
+</a>
+<a href="posts/SDSE19-004/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["confidence intervals","ages 15 - 18 years"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 25, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/SDSE19-004/cars.png"/>
+</div>
+<div class="description">
+<h2>The North Island has the bigger population, but does the South Island have the bigger motor vehicle engines? An introduction to bootstrapping</h2>
+<p>The lessons introduce the concept of resampling through bootstrapping, leading to the formation of a confidence interval of the difference between two means or two medians. The students experience sampling variation and bootstrapping visually through the aid of technology and manually through a physical exercise involving data cards of a sample from a very large population. A confidence interval of the difference between two population parameters is formed and interpreted. Lastly the experience using technology is formalised.</p>
+</div>
+</a>
+<a href="posts/SDSE19-003/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["multivariate data investigation","ages 7 - 10 years"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 25, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/SDSE19-003/pets.png"/>
+</div>
+<div class="description">
+<h2>What pets do the kids in our class have?</h2>
+<p>This lesson introduces multivariate whole number data cards for year 3-6 students through the context of pets. The use of the data cards is designed to move students away from collecting single variable data in tables with tally marks to collecting multivariate data to allow for a wider view of their investigative question. The data cards encourage multiple displays of the data as the students notice patterns in the data. This lesson allows students to engage in the entire PPDAC cycle.</p>
+</div>
+</a>
+<a href="posts/SDSE19-002/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["probability","ages 11 - 14 years"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 25, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/SDSE19-002/dice.png"/>
+</div>
+<div class="description">
+<h2>Probability explorations in a game context: The dice difference game</h2>
+<p>Learning about probability poses difficulties for students at all levels. In this lesson students are asked to make predictions about the fairness of a dice difference game and then test them by gathering and examining data. Student predictions and conclusions are examined and re-examined in interactions among small group members and whole class or group and teacher. This lesson also addresses some common misconceptions relating to probability of simple and compound events.</p>
+</div>
+</a>
+</div>
+<div class="posts-sidebar">
+<div class="sidebar-section categories">
+<h3>Categories</h3>
+<ul>
+<li>
+<a href="#ages_11_-_14_years">ages 11 - 14 years</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#ages_15_-_18_years">ages 15 - 18 years</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#ages_7_-_10_years">ages 7 - 10 years</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#confidence_intervals">confidence intervals</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#informal_hypothesis_testing">informal hypothesis testing</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#multivariate_data_investigation">multivariate data investigation</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#probability">probability</a>
+<span class="category-count">(1)</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Statistics and Data Science Educator</h1>
-<p><p>Peer-reviewed lesson plans for teaching statistics and data science</p></p>
+<h1>Lesson plans</h1>
+<p><p>Peer reviewed lesson plans for teaching statistics and data science</p></p>
 </div>
 
 
 <div class="d-article">
-<style>
 
-d-title {
-display: none;
-}
-
-d-article{
-margin-top: 50px;
-}
-
-</style>
-<p>
-<canvas width="900" height="300" id="animated">
-</canvas>
-</p>
-<div class="layout-chunk" data-layout="l-body">
-<script type="text/javascript">
-window.onload = function(){ animated_logo();};
- 
-  function animated_logo(){
-    var body_div = document.getElementsByClassName("sdse")[0];
-    
-      var canvas = document.getElementById("animated");
-      var context = canvas.getContext('2d');
-      pixel_ratio = window.devicePixelRatio;
-      var canvas_width = body_div.offsetWidth*0.9;
-      var canvas_height = body_div.offsetWidth*0.9/3;
-      canvas.width = canvas_width * pixel_ratio;
-      canvas.height = canvas_height * pixel_ratio;
-      canvas.style.width  = canvas_width + 'px';
-      canvas.style.height = canvas_height + 'px';
-      context.fillStyle = "#E1E1DF";
-      context.fillRect(0, 0, canvas.width/3, canvas.height);
-      stars(canvas, context, 1);
-      setTimeout(function(){ title_text(canvas, context); }, 50);
-      nzsa(canvas, context);
-  }
-  
-  function stars(canvas, context, num){
-      var star_colours = ["#425967","#425967","#425967","#425967"];
-      if(num == 1)
-      {
-        var rand = Math.floor(4 * Math.random());
-        star_colours[rand] = "#ffffff";
-        context.clearRect(0, 0, canvas.width/3, canvas.height);
-        context.fillStyle = "#E1E1DF";
-        context.fillRect(0, 0, canvas.width/3, canvas.height);
-      }
-      context.fillStyle = star_colours[0];
-      context.beginPath();
-      context.arc(0.244*canvas.height, 0.425*canvas.height, 0.085*canvas.height, 0, 2 * Math.PI);
-      context.fill();
-      context.closePath();
-      context.fillStyle = star_colours[1];
-      context.beginPath();
-      context.arc(0.499*canvas.height, 0.168*canvas.height, 0.086*canvas.height, 0, 2 * Math.PI);
-      context.fill();
-      context.closePath();
-      context.fillStyle = star_colours[2];
-      context.beginPath();
-      context.arc(0.72*canvas.height, 0.358*canvas.height, 0.075*canvas.height, 0, 2 * Math.PI);
-      context.fill();
-      context.closePath();
-      context.fillStyle = star_colours[3];
-      context.beginPath();
-      context.arc(0.499*canvas.height, 0.833*canvas.height, 0.096*canvas.height, 0, 2 * Math.PI);
-      context.fill();
-      context.closePath();
-      if(num == 1)
-      {
-        setTimeout(function(){stars(canvas, context, 1)}, 500 + Math.random()*1500);
-      }
-  }
-  
-  function title_text(canvas, context){
-     context.fillStyle = "#425967";
-     context.textBaseline = "bottom";
-     context.font = canvas.height*0.22 + "px Hepta Slab";  
-     context.fillText("STATISTICS &", 4*canvas.width/11, canvas.height/2);
-     context.fillStyle = "#5F6269";
-     context.fillText("DATA SCIENCE", 4*canvas.width/11, 3 * canvas.height/4);
-     context.fillStyle = "#1B1A15";
-     context.fillText("EDUCATOR", 4*canvas.width/11, canvas.height);
-  }
-  
-  function nzsa(canvas, context){
-    var img = new Image()
-      img.onload = function() {
-        context.drawImage(img, 3*canvas.width/4, 0, canvas.width/4, (82/300)*canvas.width/4 );
-      };
-      img.src = 'images/nzsa.png';
-  }
-
-</script>
-</div>
-<div class="sdse">
-<p><em>Statistics and Data Science Educator</em> is an online journal set up for teachers by members of the New Zealand Statistical Association (NZSA) Education Committee under the auspices of NZSA. It has <strong>peer-reviewed</strong> lesson plans for teachers at all levels, early childhood to graduate.</p>
-</div>
-<p>The journal aims to improve the quality of teaching resources and the designing of tasks. Task design has a critical influence on students’ reasoning processes, what they learn, and on how they experience and understand the nature of statistical activity and thinking.</p>
-<div class="higlight-container">
-<div class="highlight-boxes">
-<p><a href="lessons.html">Lesson plans</a></p>
-</div>
-<div class="highlight-boxes">
-<p><a href="editorials.html">Editorials</a></p>
-</div>
-<div class="highlight-boxes">
-<p><a href="about.html">About</a></p>
-</div>
-<div class="highlight-boxes">
-<p><a href="contribute.html">Contribute</a></p>
-</div>
-</div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

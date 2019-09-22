@@ -19,17 +19,17 @@
  <!--/radix_placeholder_import_source-->
 
   <!--radix_placeholder_meta_tags-->
-  <title>Statistics &amp; Data Science Educator: Statistics and Data Science Educator</title>
+  <title>Statistics &amp; Data Science Educator: About Statistics and Data Science Educator</title>
   
-  <meta property="description" itemprop="description" content="Peer-reviewed lesson plans for teaching statistics and data science"/>
+  <meta property="description" itemprop="description" content="More information about the journal"/>
   
   <link rel="icon" type="image/png" href="images/logo.png"/>
   
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Statistics &amp; Data Science Educator: Statistics and Data Science Educator"/>
+  <meta property="og:title" content="Statistics &amp; Data Science Educator: About Statistics and Data Science Educator"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Peer-reviewed lesson plans for teaching statistics and data science"/>
+  <meta property="og:description" content="More information about the journal"/>
   <meta property="og:image" content="https://stat.auckland.ac.nz/~sdse/./images/header.png"/>
   <meta property="og:image:width" content="1575"/>
   <meta property="og:image:height" content="525"/>
@@ -38,8 +38,8 @@
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary_large_image"/>
-  <meta property="twitter:title" content="Statistics &amp; Data Science Educator: Statistics and Data Science Educator"/>
-  <meta property="twitter:description" content="Peer-reviewed lesson plans for teaching statistics and data science"/>
+  <meta property="twitter:title" content="Statistics &amp; Data Science Educator: About Statistics and Data Science Educator"/>
+  <meta property="twitter:description" content="More information about the journal"/>
   <meta property="twitter:image" content="https://stat.auckland.ac.nz/~sdse/./images/header.png"/>
   <meta property="twitter:image:width" content="1575"/>
   <meta property="twitter:image:height" content="525"/>
@@ -48,7 +48,7 @@
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","base_url","preview","site"]}},"value":[{"type":"character","attributes":{},"value":["Statistics and Data Science Educator"]},{"type":"character","attributes":{},"value":["Peer-reviewed lesson plans for teaching statistics and data science\n"]},{"type":"character","attributes":{},"value":["https://stat.auckland.ac.nz/~sdse"]},{"type":"character","attributes":{},"value":["images/header.png"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","base_url","preview","site"]}},"value":[{"type":"character","attributes":{},"value":["About Statistics and Data Science Educator"]},{"type":"character","attributes":{},"value":["More information about the journal\n"]},{"type":"character","attributes":{},"value":["https://stat.auckland.ac.nz/~sdse"]},{"type":"character","attributes":{},"value":["images/header.png"]},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -1379,7 +1379,7 @@
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Statistics and Data Science Educator","description":"Peer-reviewed lesson plans for teaching statistics and data science","authors":[]}
+{"title":"About Statistics and Data Science Educator","description":"More information about the journal","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -1430,8 +1430,8 @@ function check_header(){
 </script>
 
 <div class="d-title">
-<h1>Statistics and Data Science Educator</h1>
-<p><p>Peer-reviewed lesson plans for teaching statistics and data science</p></p>
+<h1>About Statistics and Data Science Educator</h1>
+<p><p>More information about the journal</p></p>
 </div>
 
 
@@ -1447,108 +1447,15 @@ margin-top: 50px;
 }
 
 </style>
-<p>
-<canvas width="900" height="300" id="animated">
-</canvas>
-</p>
-<div class="layout-chunk" data-layout="l-body">
-<script type="text/javascript">
-window.onload = function(){ animated_logo();};
- 
-  function animated_logo(){
-    var body_div = document.getElementsByClassName("sdse")[0];
-    
-      var canvas = document.getElementById("animated");
-      var context = canvas.getContext('2d');
-      pixel_ratio = window.devicePixelRatio;
-      var canvas_width = body_div.offsetWidth*0.9;
-      var canvas_height = body_div.offsetWidth*0.9/3;
-      canvas.width = canvas_width * pixel_ratio;
-      canvas.height = canvas_height * pixel_ratio;
-      canvas.style.width  = canvas_width + 'px';
-      canvas.style.height = canvas_height + 'px';
-      context.fillStyle = "#E1E1DF";
-      context.fillRect(0, 0, canvas.width/3, canvas.height);
-      stars(canvas, context, 1);
-      setTimeout(function(){ title_text(canvas, context); }, 50);
-      nzsa(canvas, context);
-  }
-  
-  function stars(canvas, context, num){
-      var star_colours = ["#425967","#425967","#425967","#425967"];
-      if(num == 1)
-      {
-        var rand = Math.floor(4 * Math.random());
-        star_colours[rand] = "#ffffff";
-        context.clearRect(0, 0, canvas.width/3, canvas.height);
-        context.fillStyle = "#E1E1DF";
-        context.fillRect(0, 0, canvas.width/3, canvas.height);
-      }
-      context.fillStyle = star_colours[0];
-      context.beginPath();
-      context.arc(0.244*canvas.height, 0.425*canvas.height, 0.085*canvas.height, 0, 2 * Math.PI);
-      context.fill();
-      context.closePath();
-      context.fillStyle = star_colours[1];
-      context.beginPath();
-      context.arc(0.499*canvas.height, 0.168*canvas.height, 0.086*canvas.height, 0, 2 * Math.PI);
-      context.fill();
-      context.closePath();
-      context.fillStyle = star_colours[2];
-      context.beginPath();
-      context.arc(0.72*canvas.height, 0.358*canvas.height, 0.075*canvas.height, 0, 2 * Math.PI);
-      context.fill();
-      context.closePath();
-      context.fillStyle = star_colours[3];
-      context.beginPath();
-      context.arc(0.499*canvas.height, 0.833*canvas.height, 0.096*canvas.height, 0, 2 * Math.PI);
-      context.fill();
-      context.closePath();
-      if(num == 1)
-      {
-        setTimeout(function(){stars(canvas, context, 1)}, 500 + Math.random()*1500);
-      }
-  }
-  
-  function title_text(canvas, context){
-     context.fillStyle = "#425967";
-     context.textBaseline = "bottom";
-     context.font = canvas.height*0.22 + "px Hepta Slab";  
-     context.fillText("STATISTICS &", 4*canvas.width/11, canvas.height/2);
-     context.fillStyle = "#5F6269";
-     context.fillText("DATA SCIENCE", 4*canvas.width/11, 3 * canvas.height/4);
-     context.fillStyle = "#1B1A15";
-     context.fillText("EDUCATOR", 4*canvas.width/11, canvas.height);
-  }
-  
-  function nzsa(canvas, context){
-    var img = new Image()
-      img.onload = function() {
-        context.drawImage(img, 3*canvas.width/4, 0, canvas.width/4, (82/300)*canvas.width/4 );
-      };
-      img.src = 'images/nzsa.png';
-  }
-
-</script>
-</div>
-<div class="sdse">
-<p><em>Statistics and Data Science Educator</em> is an online journal set up for teachers by members of the New Zealand Statistical Association (NZSA) Education Committee under the auspices of NZSA. It has <strong>peer-reviewed</strong> lesson plans for teachers at all levels, early childhood to graduate.</p>
-</div>
-<p>The journal aims to improve the quality of teaching resources and the designing of tasks. Task design has a critical influence on students’ reasoning processes, what they learn, and on how they experience and understand the nature of statistical activity and thinking.</p>
-<div class="higlight-container">
-<div class="highlight-boxes">
-<p><a href="lessons.html">Lesson plans</a></p>
-</div>
-<div class="highlight-boxes">
-<p><a href="editorials.html">Editorials</a></p>
-</div>
-<div class="highlight-boxes">
-<p><a href="about.html">About</a></p>
-</div>
-<div class="highlight-boxes">
-<p><a href="contribute.html">Contribute</a></p>
-</div>
-</div>
+<h3 id="more-information-about-the-journal">More information about the journal</h3>
+<p>Statistics and probability or data science concepts are an integral part of the New Zealand school curriculum and assessment, specifically in the mathematics and statistics curriculum, and implicitly in the science, physical education, social science curricula and any other school discipline where data are used. At the tertiary level, statistics, probability, modelling, and data science are taught at the undergraduate and graduate levels as disciplines in their own right. However, data and modelling or data science are ubiquitous across many disciplines (e.g. economics, engineering, linguistics, sociology) and are taught in situ. The <em>Statistics and Data Science Educator</em> seeks to provide free peer-reviewed teaching materials for teachers who develop statistical, probabilistic and modelling concepts in their classrooms.</p>
+<p><em>Statistics and Data Science Educator</em> lesson plans identify both the statistics, probability, and modelling concepts being developed and the age range appropriate for their use. The lessons are organised around a sequence of main instructional elements relevant to the topic and type of lesson design (e.g. Model Eliciting Activity, Statistical enquiry process PPDAC (problem, plan, data analysis, conclusion)). Supplementary materials such as data sets, videos, online learning and teaching tools, embedded media, embedded interactive, and digital tools are encouraged. Teachers can navigate <em>Statistics and Data Science Educator</em> lessons by age level and topic.</p>
+<p><em>Statistics and Data Science Educator</em> is published continuously with accepted lesson plans being published when ready. In October each year, an editorial and acknowledgement of reviewers will be published. Contact <em>Statistics and Data Science Educator</em> (<a href="mailto:statisticsdatascienceeducator@gmail.com" class="email">statisticsdatascienceeducator@gmail.com</a>) for further information.</p>
+<h3 id="editorial-team">Editorial team</h3>
+<p><strong>Managing Editor</strong> Maxine Pfannkuch, The University of Auckland</p>
+<p><strong>Website and Technical Editor</strong> Anna Fergusson, The University of Auckland</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p><em>Statistics and Data Science Educator</em> is indebted to <a href="https://www.amstat.org/ASA/Education/STEW/home.aspx">STEW (STatistics Education Web)</a>, its recent replacement the <a href="https://statisticsteacher.org/">Statistics Teacher</a>, and their founders, the American Statistical Association/National Council of Teachers of Mathematics Joint Committee, for sharing their material and ideas during the formation of this journal. <em>Statistics and Data Science Educator</em> also acknowledges the work of the Australian Curriculum Corporation Mathematics Curriculum and Teaching Program (MCTP) Chance and Data Investigations by Charles Lovitt and Ian Lowe, whose work has influenced the style of <em>Statistics and Data Science Educator</em> lesson plans.</p>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>

@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Open+Sans+Condensed:300&display=swap');
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a.title, h3 {
+   font-family: 'Hepta Slab', serif;
+   text-transform: uppercase;
+}
+
+
+h1 {
+   font-family: 'Hepta Slab', serif;
+   text-transform: uppercase;
+   color:#425967;
+   font-size: 20px;
+}
+
+.subscribe{
+  background-color: #E1E1DF;
+  padding: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.distill-site-nav {
+  color: #1B1A15;
+  background-color: #E1E1DF;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.distill-site-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.distill-site-nav a:hover {
+  color: white;
+}
+
+.distill-site-header .logo img {
+    max-height: 30px;
+    width: auto;
+    margin-bottom: -8px;
+}
+
+.distill-site-header .title {
+  font-family: 'Hepta Slab', serif;
+   text-transform: uppercase;
+   font-size: small;
+}
+
+.distill-site-header {
+}
+
+.distill-site-footer {
+  background-color: #425967;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ffffff;
+}
+
+@media print {
+  .distill-site-nav {
+    display: none;
+  }
+}
+
+.highlight-container{
+  position: relative;
+}
+
+.highlight-boxes{
+  float: left;
+  position: relative;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
+  background-color: #425967;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  padding:10px;
+  font-size: medium;
+}
+
+.highlight-boxes a{
+  color: #ffffff;
+  text-decoration: none;
+}
