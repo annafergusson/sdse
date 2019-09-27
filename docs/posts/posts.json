@@ -2,7 +2,7 @@
   {
     "path": "posts/ED19-001/",
     "title": "Editorial: October 2019",
-    "description": "Welcome to the inaugural issue of the Statistics and Data Science Educator (SDSE). This online journal of peer-reviewed lesson plans for teachers arose from a NZSA Education Committee concern that available teaching resources for the NZ statistics curriculum at the school and tertiary level needed to be improved",
+    "description": "Welcome to the inaugural issue of the Statistics and Data Science Educator (SDSE). This online journal of peer-reviewed lesson plans for teachers arose from a NZSA Education Committee concern that available teaching resources for the NZ statistics curriculum at the school and tertiary level needed to be improved.",
     "author": [
       {
         "name": "Maxine Pfannkuch",
@@ -16,7 +16,7 @@
     "date": "2019-09-25",
     "categories": [],
     "preview": "posts/ED19-001/nz.png",
-    "last_modified": "2019-09-22T12:19:02+12:00",
+    "last_modified": "2019-09-28T11:06:05+12:00",
     "preview_width": 500,
     "preview_height": 400
   },
@@ -37,7 +37,7 @@
       "ages 11 - 14 years"
     ],
     "preview": "posts/SDSE19-001/wonky.png",
-    "last_modified": "2019-09-22T13:42:03+12:00",
+    "last_modified": "2019-09-28T11:06:15+12:00",
     "preview_width": 290,
     "preview_height": 228
   },
@@ -57,7 +57,7 @@
       "ages 11 - 14 years"
     ],
     "preview": "posts/SDSE19-002/dice.png",
-    "last_modified": "2019-09-22T13:42:11+12:00",
+    "last_modified": "2019-09-28T11:06:34+12:00",
     "preview_width": 634,
     "preview_height": 500
   },
@@ -77,7 +77,7 @@
       "ages 7 - 10 years"
     ],
     "preview": "posts/SDSE19-003/pets.png",
-    "last_modified": "2019-09-22T16:15:43+12:00",
+    "last_modified": "2019-09-28T11:06:47+12:00",
     "preview_width": 400,
     "preview_height": 353
   },
@@ -97,7 +97,7 @@
       "ages 15 - 18 years"
     ],
     "preview": "posts/SDSE19-004/cars.png",
-    "last_modified": "2019-09-22T13:42:49+12:00",
+    "last_modified": "2019-09-28T11:07:08+12:00",
     "preview_width": 500,
     "preview_height": 334
   }
