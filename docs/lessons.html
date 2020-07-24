@@ -48,7 +48,7 @@
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","preview","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Lesson plans"]},{"type":"character","attributes":{},"value":["Peer reviewed lesson plans for teaching statistics and data science\n"]},{"type":"character","attributes":{},"value":["images/header.png"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["posts"]}},"value":[{"type":"character","attributes":{},"value":["SDSE19-005","SDSE19-001","SDSE19-004","SDSE19-003","SDSE19-002"]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","preview","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["Lesson plans"]},{"type":"character","attributes":{},"value":["Peer reviewed lesson plans for teaching statistics and data science\n"]},{"type":"character","attributes":{},"value":["images/header.png"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["posts"]}},"value":[{"type":"character","attributes":{},"value":["SDSE20-002","SDSE19-005","SDSE19-001","SDSE19-004","SDSE19-003","SDSE19-002"]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -739,6 +739,16 @@
   }
   
   
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+  
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+  
+  
   /* Improve display for browsers without grid (IE/Edge <= 15) */
   
   .downlevel {
@@ -1399,7 +1409,7 @@
 <a href="about.html">About</a>
 <a href="contribute.html">Contribute</a>
 <a href="sitemap.xml">
-<i class="fa fa-rss"></i>
+<i class="fa fa-rss" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -1748,6 +1758,19 @@ function init_posts_list() {
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption">Lesson plans</h1>
+<a href="posts/SDSE20-002/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["study design","undergraduate level"]}</script>
+<div class="metadata">
+<div class="publishedDate">July 24, 2020</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/SDSE20-002/video-1.jpg"/>
+</div>
+<div class="description">
+<h2>Using video clips to kick-start statistical thinking – research questions and study design</h2>
+<p>This lesson plan provides guidance and advice on how to integrate video clips into lectures to help facilitate the development of statistical thinking in students. Although the lesson can be applied in multiple ways, it looks specifically at nurturing students’ skills in developing good research questions applicable to a statistical investigation.</p>
+</div>
+</a>
 <a href="posts/SDSE19-005/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["probability","undergraduate level"]}</script>
 <div class="metadata">
@@ -1847,8 +1870,12 @@ function init_posts_list() {
 <span class="category-count">(2)</span>
 </li>
 <li>
-<a href="#undergraduate_level">undergraduate level</a>
+<a href="#study_design">study design</a>
 <span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#undergraduate_level">undergraduate level</a>
+<span class="category-count">(2)</span>
 </li>
 </ul>
 </div>
