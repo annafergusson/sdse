@@ -1,5 +1,43 @@
 [
   {
+    "path": "posts/SDSE20-003/",
+    "title": "Laying the foundations for the randomisation test",
+    "description": "This lesson can be taught in two sessions to Year 13 statistics students or in one or two lectures to stage one statistics students. The lesson introduces four key ideas that underpin the randomisation test: the meaning of unusualness; chance acting alone behaviour; the omnipresence of chance; and evidence and argumentation. Students participate throughout the lesson with a mixture of hands-on and online interactions.",
+    "author": [
+      {
+        "name": "Emma Lehrke",
+        "url": {}
+      }
+    ],
+    "date": "2020-08-31",
+    "categories": [
+      "randomisation tests",
+      "undergraduate level"
+    ],
+    "preview": "posts/SDSE20-003/chance.jpg",
+    "last_modified": "2020-08-31T11:11:53+12:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/SDSE20-002/",
+    "title": "Using video clips to kick-start statistical thinking – research questions and study design",
+    "description": "This lesson plan provides guidance and advice on how to integrate video clips into lectures to help facilitate the development of statistical thinking in students. Although the lesson can be applied in multiple ways, it looks specifically at nurturing students’ skills in developing good research questions applicable to a statistical investigation.",
+    "author": [
+      {
+        "name": "Dr Rhys C Jones",
+        "url": {}
+      }
+    ],
+    "date": "2020-07-24",
+    "categories": [
+      "study design",
+      "undergraduate level"
+    ],
+    "preview": "posts/SDSE20-002/video-1.jpg",
+    "last_modified": "2020-07-24T16:13:29+12:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/SDSE19-005/",
     "title": "Using the Pachinkogram to introduce and explore Bayes’ theorem",
     "description": "A person has been randomly chosen to be tested for diabetes and tests positive. What is the probability they actually have diabetes? Students use the Pachinkogram visual tool to explore this scenario and investigate what happens when the given probabilities change. Rather than introducing Bayes’ theorem using formulae, this lesson aims to give students an intuitive understanding of the nature and effect of given and resultant probabilities.",
@@ -16,6 +54,7 @@
     ],
     "preview": "posts/SDSE19-005/bayes.png",
     "last_modified": "2020-02-03T16:04:29+13:00",
+    "input_file": {},
     "preview_width": 439,
     "preview_height": 325
   },
@@ -37,6 +76,7 @@
     "categories": [],
     "preview": "posts/ED19-001/nz.png",
     "last_modified": "2019-09-28T11:06:05+12:00",
+    "input_file": {},
     "preview_width": 500,
     "preview_height": 400
   },
@@ -58,6 +98,7 @@
     ],
     "preview": "posts/SDSE19-001/wonky.png",
     "last_modified": "2019-09-28T11:06:15+12:00",
+    "input_file": {},
     "preview_width": 290,
     "preview_height": 228
   },
@@ -78,6 +119,7 @@
     ],
     "preview": "posts/SDSE19-002/dice.png",
     "last_modified": "2019-09-28T11:06:34+12:00",
+    "input_file": {},
     "preview_width": 634,
     "preview_height": 500
   },
@@ -98,6 +140,7 @@
     ],
     "preview": "posts/SDSE19-003/pets.png",
     "last_modified": "2019-09-28T11:06:47+12:00",
+    "input_file": {},
     "preview_width": 400,
     "preview_height": 353
   },
@@ -118,6 +161,7 @@
     ],
     "preview": "posts/SDSE19-004/cars.png",
     "last_modified": "2019-09-28T11:07:08+12:00",
+    "input_file": {},
     "preview_width": 500,
     "preview_height": 334
   }
