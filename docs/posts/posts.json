@@ -1,5 +1,46 @@
 [
   {
+    "path": "posts/ED20-001/",
+    "title": "Editorial: December 2020",
+    "description": "Welcome to the second publication year for the Statistics and Data Science Educator (SDSE). Articles in SDSE are published online on a continual basis. Despite COVID-19, four articles have been published in 2020.",
+    "author": [
+      {
+        "name": "Maxine Pfannkuch",
+        "url": {}
+      },
+      {
+        "name": "Anna Fergusson",
+        "url": {}
+      }
+    ],
+    "date": "2020-12-20",
+    "categories": [],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/ED20-001/grow.jpg",
+    "last_modified": "2021-02-26T20:47:08+13:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/SDSE20-001/",
+    "title": "Experiencing experimental design principles: The Elevens trick",
+    "description": "In this lesson students experience an experiment first-hand. Students then reflect on experimental design principles in evaluating the experiment. The experiment is conducted as a comparison of two independent groups.",
+    "author": [
+      {
+        "name": "Barbara Costelloe",
+        "url": {}
+      }
+    ],
+    "date": "2020-12-11",
+    "categories": [
+      "study design",
+      "ages 15 - 18 years"
+    ],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/SDSE20-001/trick-1.jpg",
+    "last_modified": "2021-02-26T20:40:13+13:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/SDSE20-003/",
     "title": "Laying the foundations for the randomisation test",
     "description": "This lesson can be taught in two sessions to Year 13 statistics students or in one or two lectures to stage one statistics students. The lesson introduces four key ideas that underpin the randomisation test: the meaning of unusualness; chance acting alone behaviour; the omnipresence of chance; and evidence and argumentation. Students participate throughout the lesson with a mixture of hands-on and online interactions.",
@@ -14,6 +55,7 @@
       "randomisation tests",
       "undergraduate level"
     ],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/SDSE20-003/chance.jpg",
     "last_modified": "2020-08-31T11:11:53+12:00",
     "input_file": {}
@@ -33,6 +75,7 @@
       "study design",
       "undergraduate level"
     ],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/SDSE20-002/video-1.jpg",
     "last_modified": "2020-07-24T16:13:29+12:00",
     "input_file": {}
@@ -52,6 +95,7 @@
       "probability",
       "undergraduate level"
     ],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/SDSE19-005/bayes.png",
     "last_modified": "2020-02-03T16:04:29+13:00",
     "input_file": {},
@@ -74,6 +118,7 @@
     ],
     "date": "2019-09-25",
     "categories": [],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/ED19-001/nz.png",
     "last_modified": "2019-09-28T11:06:05+12:00",
     "input_file": {},
@@ -96,6 +141,7 @@
       "ages 15 - 18 years",
       "ages 11 - 14 years"
     ],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/SDSE19-001/wonky.png",
     "last_modified": "2019-09-28T11:06:15+12:00",
     "input_file": {},
@@ -117,6 +163,7 @@
       "probability",
       "ages 11 - 14 years"
     ],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/SDSE19-002/dice.png",
     "last_modified": "2019-09-28T11:06:34+12:00",
     "input_file": {},
@@ -138,6 +185,7 @@
       "multivariate data investigation",
       "ages 7 - 10 years"
     ],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/SDSE19-003/pets.png",
     "last_modified": "2019-09-28T11:06:47+12:00",
     "input_file": {},
@@ -159,6 +207,7 @@
       "confidence intervals",
       "ages 15 - 18 years"
     ],
+    "contents": "\r\n\r\nDownload the PDF file\r\n\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/SDSE19-004/cars.png",
     "last_modified": "2019-09-28T11:07:08+12:00",
     "input_file": {},
